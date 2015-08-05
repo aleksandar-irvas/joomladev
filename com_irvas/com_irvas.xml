@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <extension type="component" version="3.0" method="upgrade">
-    <name>com_irvas</name>
+    <name>Irvas</name>
     <author>Aleksandar Stojanovic</author>
     <creationDate>August 2015</creationDate>
     <copyright>(c) Irvas International d.o.o.</copyright>
@@ -13,6 +13,7 @@
             <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
         </sql>
     </install>
+    <uninstall>
         <sql>
             <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
         </sql>
@@ -31,10 +32,14 @@
             <filename>config.xml</filename>
             <filename>controller.php</filename>
             <filename>irvas.php</filename>
+            <filename>controllers/index.html</filename>
+            <filename>helpers/index.html</filename>
+            <filename>models/index.html</filename>
+            <filename>views/index.html</filename>
+            <filename>tables/index.html</filename>
             <folder>controllers</folder>
             <folder>helpers</folder>
             <folder>models</folder>
-            <folder>sql</folder>
             <folder>tables</folder>
             <folder>views</folder>
         </files>
