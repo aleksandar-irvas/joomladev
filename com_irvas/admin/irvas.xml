@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>com_irvas</name>
+    <author>Aleksandar Stojanovic</author>
+    <creationDate>August 2015</creationDate>
+    <copyright>(c) Irvas International d.o.o.</copyright>
+    <licence>GNU General Public Licence version 2 or later</licence>
+    <authorEmail>aleksandar.stojanovic@irvas.rs</authorEmail>
+    <authorUrl>www.irvas.rs</authorUrl>
+    <version>1.0.0</version>
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+    <file folder="site">
+        <filename>index.html</filename>
+    </file>
+    <language folder="site">
+        <language tag="en-GB">language/en-GB.com_irvas.ini</language>
+    </language>
+    <administration>
+        <menu img="class:categories">COM_IRVAS_MENU</menu>
+        <files folder="admin">
+            <filename>index.html</filename>
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>irvas.php</filename>
+            <folder>controllers</folder>
+            <folder>helpers</folder>
+            <folder>models</folder>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+        </files>
+        <languages folder="admin">
+            <language tag="en-GB">language/en-GB/en-GB.com_irvas.ini</language>
+            <language tag="en-GB">language/en-GB/en-GB.com_irvas.sys.ini</language>
+        </languages>
+    </administration>
+</extension>
