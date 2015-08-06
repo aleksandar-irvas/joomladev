@@ -8,13 +8,7 @@
     <authorEmail>aleksandar.stojanovic@irvas.rs</authorEmail>
     <authorUrl>www.irvas.rs</authorUrl>
     <version>1.0.0</version>
-    <file>
-        <filename>sql/install.mysql.utf8.sql</filename>
-        <filename>sql/uninstall.mysql.utf8.sql</filename>
-        <filename>sql/index.html</filename>
-        <folder>sql</folder> 
-    </file>
-    <install>
+   <!-- <install>
         <sql>
             <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
         </sql>
@@ -23,10 +17,13 @@
         <sql>
             <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
         </sql>
-    </uninstall>
-    <file folder="site">
+    </uninstall>    -->
+    <files>
+        <filename>install.com_irvas.php</filename>
+    </files>
+    <files folder="site">
         <filename>index.html</filename>
-    </file>
+    </files>
     <language folder="site">
         <language tag="en-GB">language/en-GB.com_irvas.ini</language>
     </language>
