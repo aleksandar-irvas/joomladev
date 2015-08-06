@@ -11,6 +11,7 @@
     <file>
         <filename>sql/install.mysql.utf8.sql</filename>
         <filename>sql/uninstall.mysql.utf8.sql</filename>
+        <filename>sql/index.html</filename>
         <folder>sql</folder> 
     </file>
     <install>
