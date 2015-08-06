@@ -8,6 +8,11 @@
     <authorEmail>aleksandar.stojanovic@irvas.rs</authorEmail>
     <authorUrl>www.irvas.rs</authorUrl>
     <version>1.0.0</version>
+    <file>
+        <filename>sql/install.mysql.utf8.sql</filename>
+        <filename>sql/uninstall.mysql.utf8.sql</filename>
+        <folder>sql</folder> 
+    </file>
     <install>
         <sql>
             <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
@@ -33,6 +38,7 @@
             <filename>controller.php</filename>
             <filename>irvas.php</filename>
             <filename>controllers/index.html</filename>
+            <filename>controllers/controller.php</filename>
             <filename>helpers/index.html</filename>
             <filename>models/index.html</filename>
             <filename>views/index.html</filename>
