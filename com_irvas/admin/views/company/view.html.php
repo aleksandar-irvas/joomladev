@@ -14,7 +14,7 @@ class IrvasViewCompany extends JViewLegacy
         parent::display($tpl);
     }
     protected function addToolbar(){
-        $canDo = FolioHelper::getActions();
+        $canDo = IrvasHelper::getActions();
         $bar = JToolBar::getInstance('toolbar');
         JToolbarHelper::title(JText::_('COM_IRVAS_MANAGER_COMPANY'), '');
         JToolbarHelper::addNew('irvas.add');
