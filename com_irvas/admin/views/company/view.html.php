@@ -1,7 +1,7 @@
 <?php
 defined('_JEXEC') or die;
 
-class FolioViewFolios extends JViewLegacy
+class IrvasViewCompany extends JViewLegacy
 {
     protected $items;
     public function display($tpl = null){
