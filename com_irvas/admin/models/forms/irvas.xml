@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset>
+        <field name="id" type="text" default="0" label="JGLOBAL_FIELD_ID_LABEL" readonly="true" class="readonly" description="JGLOBAL_FIELD_ID_DESC"/>
+        <field name="title" type="text" class="inputbox" size="40" label="JGLOBAL_TITLE" description="COM_FOLIO_FIELD_TITLE_DESC" required="true" />
+        <field name="name" type="text" class="inputbox" size="40" label="COM_IRVAS_NAME"
+description="COM_IRVAS_DESC_NAME" />
+    </fieldset>
+    <fieldset>
+        <field name="company_address" type="text" class="inputbox" size="40" label="COM_IRVAS_COMP_ADDRESS" description="COM_IRVAS_DESC_COMP_ADDRESS" />
+        <field name="company_phone" type="text" class="inputbox" size="40" label="COM_IRVAS_COMP_PHONE" description="COM_IRVAS_DESC_COMP_PHONE" />
+        <field name="company_fax" type="text" class="inputbox" size="40" label="COM_IRVAS_COMP_FAX" description="COM_IRVAS_DESC_COMP_FAX" />
+        <field name="company_mobile" type="text" class="inputbox" size="40" label="COM_IRVAS_COMP_MOBILE" description="COM_IRVAS_DESC_COMP_MOBILE" />
+        <field name="company_email" type="email" required="true" class="inputbox" size="40" label="COM_IRVAS_COMP_EMAIL" description="COM_IRVAS_DESC_COMP_EMAIL" />
+        <field name="company_website" type="text" class="inputbox" size="40" label="COM_IRVAS_COMP_WEB" description="COM_IRVAS_DESC_COMP_WEB" />
+        <field name="company_logo" type="file" class="inputbox" size="20" label="COM_IRVAS_COMP_LOGO" description="COM_IRVAS_DESC_COMP_LOGO" accept="image/*" />
+        <field name="company_vat" type="text" class="inputbox" size="40" label="COM_IRVAS_COMP_VAT" description="COM_IRVAS_DESC_COMP_VAT" />
+        <field name="company_id" type="text" class="inputbox" size="40" label="COM_IRVAS_COMP_ID" description="COM_IRVAS_DESC_COMP_ID" />
+        <field name="company_bank_acc" type="text" class="inputbox" size="40" label="COM_IRVAS_COMP_BANK_ACC" description="COM_IRVAS_DESC_COMP_BANK_ACC" />
+    </fieldset>
+    <fieldset>
+        <field name="person_name" type="text" class="inputbox" size="40" label="COM_IRVAS_PRS_NAME" description="COM_IRVAS_DESC_PRS_NAME" />
+        <field name="person_position" type="text" class="inputbox" size="40" label="COM_IRVAS_PRS_POSITON" description="COM_IRVAS_DESC_PRS_POSITION" />
+        <field name="person_phone" type="text" class="inputbox" size="40" label="COM_IRVAS_PRS_PHONE" description="COM_IRVAS_DESC_PRS_PHONE" />
+        <field name="person_email" type="email" required="true" class="inputbox" size="40" label="COM_IRVAS_PRS_EMAIL" description="COM_IRVAS_DESC_PRS_EMAIL" />
+    </fieldset>
+</form>
