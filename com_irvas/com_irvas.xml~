@@ -28,10 +28,7 @@
         <language tag="en-GB">language/en-GB.com_irvas.ini</language>
     </language>
     <administration>
-        <menu link="option=com_irvas" img="class:categories">COM_IRVAS_MENU</menu>
-        <submenu>
-        	<menu>Companies</menu>
-        </submenu>
+        <menu img="class:categories">COM_IRVAS_MENU</menu>
         <files folder="admin">
             <filename>index.html</filename>
             <filename>access.xml</filename>
